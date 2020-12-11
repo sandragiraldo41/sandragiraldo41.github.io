@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Sandra's Portfolio</title>
+<!--to link the stylesheet to html-->
+ <link rel="stylesheet" type="text/css" href="portf-stylesheet.css">
+ <link rel="stylesheet" href="
+ https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <!--to link boostrap-->
+</head>
+<body>
+<!--this is the navbar-->
+<nav class="navbar navbar-default">
+<div class="navbar-header">
+<a id="sg" href="#">SANDRA GIRALDO</a> <!--I have to give the name an id to change the color in css-->
+</div>
+ <ul class="nav navbar-nav pull-right"> <!--to have the bar items all to the right of the bar-->
+ <li ><a href="#">Home</a></li>
+ <li ><a href="#third-row">About</a></li>  
+ <li ><a href="#contact">Contact</a></li>
+ </ul>  
+ </nav>
+ <!--navbar ends here-->
+ 
+ <div class="container-fluid">
+  <div class="row">
+  <div class="col-md-12 col-md-push-11">
+ <img alt="LinkedIn"style="width:30px; height:30px;" src="Images/linkedin-icon.png">
+ <img alt="Instagram"style="width:30px; height:30px;" src="Images/instagram.png">
+ <img alt="Facebook"style="width:30px; height:30px;" src="Images/facebook-png.png">
+ </div>
+</div>
+  <div class="row"id="first-row">
+  <div class="col-md-6">
+  <img src="Images/Sandra Giraldo.jpeg" id="me"alt="Sandra Giraldo">
+  </div>
+  <div class="col-md-6 text-center"id="introduction"> 
+  <span id= "sandragiraldo">Sandra Giraldo,</span>
+  <br>
+  Nutrition Holistic Health Councelour
+  <br>
+  Detox Specialist
+  <br>
+  Auto Immune Warrior
+  <br>
+  Digestive Health Advocate 
+</div>
+</div>
+  <div class="row">
+  <div class="col-md-4">
+  <div class="thumbnail">
+  <a href="file:///Users/sandragiraldo/Desktop/YWeb/Portfolio/services.html">
+  <img src="Images/Services.png">
+   </a>
+   </div>
+  </div>
+  <div class="col-md-4">
+   <div class="thumbnail">
+   <a href="file:///Users/sandragiraldo/Desktop/YWeb/Portfolio/education.html">
+   <img src="Images/Education.png">
+   </div>
+   </a>
+   </div>
+  <div class="col-md-4">
+   <div class="thumbnail">
+   <a href="file:///Users/sandragiraldo/Desktop/YWeb/Portfolio/media.html">
+   <img src="Images/Media.png">
+   </div>
+   </a>
+  </div>
+</div>
+ <div class="row"id="third-row">
+  <div class="col-md-6"id="about-me"> 
+  <span id= "Abm">About me</span>
+  <br>
+  <br>Every day I help people live their best, healthiest life. I am a Certified Integrative Nutrition Health Coach and Detox Specialist.  I support women with autoimmune and chronic conditions to utilize the power of nature specially food and transform their lives thriving in a body that loves them back.
+  <br>
+  My journey started 28 years ago when I was a geology student, my body started breaking down slowly, I had constant digestive problems, extreme fatigue and eczema. I got an IBS diagnose and a month later hypoglycemia was added to the list. After  many doctors, diagnosis and living over medicated I didn’t get any better, fifteen years ago I got in charge, stopped feeling bad for myself and started my recovery journey, a journey that took me back to school  and has allowed me to help other women just like me. Food has been my medicine and I’m sure it’ll be yours too. 
+</div>
+<div class="col-md-6">
+<img src="Images/Sandra-CHHC.png" alt="Sandra-CHHC" id="chhc"> 
+</div>
+
+  <div class="row">
+  <img src="Images/contact-us.jpg" alt="contact-us-CHHC" style="width:572px; height:600px;" class="col-md-6">
+  <div class="col-md-6 text-center" style="margin-top: 80px;"> 
+  CONTACT ME
+  <br>
+  <img alt="LinkedIn"style="width:30px; height:30px; object-fit: cover;" src="Images/linkedin-icon.png">
+ <img alt="Instagram"style="width:30px; height:30px; object-fit: cover;" src="Images/instagram.png">
+ <img alt="Facebook"style="width:30px; height:30px; object-fit: cover;" src="Images/facebook-png.png">
+  <br>
+  <form id="contact" action="mailto:sgiraldo41@gmail.com" 
+    onSubmit="return validateForm();"
+    method="POST" 
+    enctype="text/plain" 
+    name="myForm" style="margin-top: 40px;"  
+    >
+      <label>First Name:</label><br>
+      <input type="text" name="First Name"><br>
+      <label>Last Name:</label><br>
+      <input type="text" name="Last Name"> <br> 
+      <label>Email:</label><br>
+      <input type="text" name="Email"><br><br>
+      <textarea name="comment" rows="10"   cols="40"> 
+      </textarea>
+      <br>
+      <input type="submit" value="Submit"> 
+      <br>
+      <br>
+      </form>
+</div>
+</div>
+</body>
+</html> 

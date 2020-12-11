@@ -1,0 +1,120 @@
+.navbar-nav{
+margin-top: 60px;
+padding: 20px;
+font-family: italic;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: normal;
+background: #D8B9C3;
+
+}
+.navbar-default{
+background-color: #D8B9C3 !important;
+ /* !important overwrites any other rules*/
+}
+.navbar-default .navbar-nav li a {
+color: black !important; 
+
+}
+#sg{
+padding: 30px;
+line-height: 90px;
+vertical-align: center;
+font-family: italic;
+font-weight: bolder;
+font-size: 30px;
+color: black;
+}
+
+li{
+margin-right: 40px; 
+}
+
+#contact-row{
+margin-top: 30px;
+}
+
+#me{
+	width: 100%;
+	height: 735px;
+}
+
+#sandragiraldo{
+font-family: Playfair Display Regular;
+font-size: 60px;
+color: #D8B9C3;
+}
+#introduction{
+margin-top: 240px; 
+padding-top: 120px;
+text-align: left;
+padding-left: 40px;
+color: #D8B9C3;
+
+}
+#first-row{
+height: 735px;
+background: #363062;
+}
+
+#chhc{
+width: 100%;
+height: 735px;
+}
+.row{
+margin-top: 20px;
+}
+#third-row{
+height: 735px;
+background: #363062;
+font-family: helvetica;
+font-size: 20px;
+padding-left: 10px;
+}
+#about-me{
+color: #D8B9C3;
+padding-left: 20px;
+padding-top: 40px;
+}
+#Abm{
+font-family: Playfair Display Regular;
+font-size: 50px;
+text-align: center;
+display: flex;
+width: 100%;
+justify-content: center;
+}
+p{
+ color: black;
+ font-family: PT Sans;
+ text-align: left;
+ font-size:18px;
+ padding-left: 30px;
+ padding-right: 30px;
+ 
+}
+h2{
+ color: white !important;
+ padding-left: 30px;
+ background: #363062;
+ padding-bottom: 10px;
+ padding-top: 10px;
+}
+#closing{
+	background: #363062;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	height: 60px;
+}
+#services{
+ width: 100%;
+ height: 450px;
+ padding-right: 10px;
+ padding-left: 10px;
+}
+h3{
+ padding-left: 30px;
+}
+h4{
+ padding-left: 30px;
+}
